@@ -9,6 +9,7 @@ export default function Filter({ filterHandler, filter }) {
                 onChange={filterHandler}
                 type="text"
                 value={filter}
+                placeholder='start typing the name...'
                 className={s.input}
             ></input>
         </label>
